@@ -2,63 +2,75 @@
 // Fetches random landscape images from Pexels API for hero background
 
 class PexelsBackground {
-    constructor() {
-        this.apiKey = null;
-        this.queries = this.getQueries();
-        this.currentImage = null;
-        this.usedImages = new Set(); // Track used images to avoid repeats
-        this.fallbackGradient = 'linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 20%, var(--color-primary-light) 40%, var(--color-primary) 60%, var(--color-primary-dark) 75%, var(--color-primary-dark) 90%, var(--color-primary) 100%)';
-        
-        // Hide gradient immediately to prevent flash
-        this.hideGradientBackground();
-        
-        // Wait for configuration to be loaded, then initialize
-        this.waitForConfig();
+  constructor() {
+    const heroSection = document.querySelector('.hero-section');
+
+    // If no hero section, bail
+    if (!heroSection) {
+      return;
     }
 
-    waitForConfig() {
-        const checkConfig = () => {
-            if (window.PEXELS_API_KEY) {
-                this.apiKey = window.PEXELS_API_KEY;
-                this.init();
-            } else {
-                // Wait a bit more for the configuration to load
-                setTimeout(checkConfig, 100);
-            }
-        };
-        
-        // Start checking after a short delay to allow config to load
-        setTimeout(checkConfig, 100);
+    // Read API key + queries from data attributes
+    this.apiKey = heroSection.dataset.pexelsApiKey || null;
+    this.queries = this.getQueries(heroSection);
+    this.currentImage = null;
+    this.usedImages = new Set(); // Track used images to avoid repeats
+    this.fallbackGradient =
+      'linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 20%, var(--color-primary-light) 40%, var(--color-primary) 60%, var(--color-primary-dark) 75%, var(--color-primary-dark) 90%, var(--color-primary) 100%)';
+
+    // Hide gradient immediately to prevent flash
+    this.hideGradientBackground();
+
+    if (!this.apiKey) {
+      console.warn(
+        'PexelsBackground: no API key found on data-pexels-api-key, using fallback gradient.'
+      );
+      this.useFallbackBackground();
+      return;
     }
 
-    hideGradientBackground() {
-        const heroSection = document.querySelector('.hero-section');
-        if (heroSection) {
-            // Immediately hide the gradient to prevent flash
-            heroSection.style.background = 'transparent';
-            heroSection.style.transition = 'background 0.3s ease-in-out';
-        }
+    this.init();
+  }
+
+  hideGradientBackground() {
+    const heroSection = document.querySelector('.hero-section');
+    if (heroSection) {
+      heroSection.style.background = 'transparent';
+      heroSection.style.transition = 'background 0.3s ease-in-out';
     }
+  }
+
+  async init() {
+    try {
+      await this.loadRandomBackground();
+    } catch (error) {
+      console.error('Failed to load Pexels background:', error);
+      this.useFallbackBackground();
+    }
+  }
 
 
-    getQueries() {
-        // Get queries from Hugo config, with fallback to default list
-        if (window.PEXELS_QUERIES && Array.isArray(window.PEXELS_QUERIES)) {
-            return window.PEXELS_QUERIES;
-        }
-        
-        // Fallback queries if not configured
-        return [
-            'ocean', 'nature', 'landscape', 'mountains', 'forest', 'sunset', 'beach', 'sky',
-            'lake', 'river', 'valley', 'desert', 'canyon', 'waterfall', 'meadow', 'field',
-            'coast', 'cliff', 'island', 'bay', 'harbor', 'lighthouse', 'bridge', 'path',
-            'trail', 'garden', 'park', 'tree', 'flower', 'cloud', 'storm', 'rainbow',
-            'aurora', 'milky way', 'stars', 'moon', 'sunrise', 'twilight', 'mist', 'fog',
-            'space', 'galaxy', 'nebula', 'planet', 'earth', 'mars', 'jupiter', 'saturn',
-            'universe', 'cosmos', 'astronomy', 'solar system', 'black hole', 'supernova',
-            'constellation', 'meteor', 'comet', 'asteroid', 'space station', 'satellite'
-        ];
+getQueries(heroSection) {
+    // If the section has a data-pexels-queries attribute → use that
+    if (heroSection && heroSection.dataset.pexelsQueries) {
+        return heroSection.dataset.pexelsQueries
+            .split(',')
+            .map(q => q.trim())
+            .filter(q => q.length > 0);
     }
+
+    // Otherwise fallback to defaults
+    return [
+        'ocean', 'nature', 'landscape', 'mountains', 'forest', 'sunset', 'beach', 'sky',
+        'lake', 'river', 'valley', 'desert', 'canyon', 'waterfall', 'meadow', 'field',
+        'coast', 'cliff', 'island', 'bay', 'harbor', 'lighthouse', 'bridge', 'path',
+        'trail', 'garden', 'park', 'tree', 'flower', 'cloud', 'storm', 'rainbow',
+        'aurora', 'milky way', 'stars', 'moon', 'sunrise', 'twilight', 'mist', 'fog',
+        'space', 'galaxy', 'nebula', 'planet', 'earth', 'mars', 'jupiter', 'saturn',
+        'universe', 'cosmos', 'astronomy', 'solar system', 'black hole', 'supernova',
+        'constellation', 'meteor', 'comet', 'asteroid', 'space station', 'satellite'
+    ];
+}
 
     async init() {
         try {
