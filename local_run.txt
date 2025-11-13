@@ -1,0 +1,4 @@
+Commands to run locally:
+
+PORT=3001 node local-dev-server.js
+npm run dev

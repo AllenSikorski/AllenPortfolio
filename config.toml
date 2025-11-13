@@ -48,14 +48,14 @@ formspree_endpoint = "https://formspree.io/f/mzzypwrj"
 
 og_image = "images/felipecordero-og.png"
 
-description = "Structural engineer and software developer expanding into AI/ML to solve complex engineering and automation challenges."
+description = "Cloud and Systems Administrator specializing in secure infrastructure, automation, and modern network design. Experienced with AWS, virtualization, Microsoft 365, and enterprise security. Focused on reliability, performance, and real-world problem solving."
 
 linkedin_url = "https://www.linkedin.com/in/AllenSikorski"
 linkedin_text = "linkedin.com/in/AllenSikorski"
 github_url = "https://github.com/AllenSikorski"
 github_text = "github.com/AllenSikorski"
 
-copyright = "© 2025 | felipecordero "
+copyright = "© 2025 | Allen Sikorski"
 
 
 resume_url_en = "/files/Allen_Sikorski_CV.pdf"
