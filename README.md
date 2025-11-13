@@ -4,7 +4,7 @@ This repository contains the source code for my personal portfolio site:
 
 👉 **Live site:** https://allensikorski.com  
 
-It’s a static site built with **Hugo**, styled with **Tailwind CSS**, and powered by a customized version of the **CareerCanvas** theme, tailored for systems / cloud / network engineering portfolios.
+This site is a fast and fully responsive portfolio built with Hugo and Tailwind CSS, designed to showcase my experience in systems administration, cloud technologies, networking, and modern IT engineering.
 
 
 ## 👨‍💻 About Me
