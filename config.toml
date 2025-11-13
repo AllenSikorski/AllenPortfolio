@@ -42,7 +42,7 @@ profile_image = "images/allen-sikorski-profile.jpg"
 author = "Allen Sikorski"
 
 # Pexels + Formspree config for GitHub Pages
-pexels_api_key = "YOUR_PEXELS_KEY_HERE"
+pexels_api_key = "uQcQbDGIhReGtfeBlBqz8mK62cMo1qtShDgShe3a4oQqP01W9Omm6RIW"
 formspree_endpoint = "https://formspree.io/f/mzzypwrj"
 
 
