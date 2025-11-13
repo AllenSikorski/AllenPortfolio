@@ -1,6 +1,25 @@
-# Personal Website
+# Allen Sikorski – Portfolio Website
 
-This is my personal website built with Hugo, a fast and modern static site generator. The site features a clean, responsive design powered by Tailwind CSS and uses my own theme, CareerCanvas.
+This repository contains the source code for my personal portfolio site:
+
+👉 **Live site:** https://allensikorski.com  
+
+It’s a static site built with **Hugo**, styled with **Tailwind CSS**, and powered by a customized version of the **CareerCanvas** theme, tailored for systems / cloud / network engineering portfolios.
+
+
+## 👨‍💻 About Me
+
+I’m a **Cloud and Systems Administrator** with 9 years of experience in:
+
+- Hybrid infrastructure (on-prem + cloud)
+- AWS, virtualization, and networking
+- Microsoft 365 / Entra ID administration and automation
+- Monitoring, security, and alerting
+- PowerShell / Python for automation and tooling
+
+This site is meant to be a **living CV** that highlights my stack, projects, and infrastructure work.
+
+---
 
 ## 🚀 Features
 
