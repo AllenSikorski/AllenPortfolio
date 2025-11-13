@@ -72,11 +72,9 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-          # 👇 Pass secrets through with HUGO_ prefix so Hugo can read them
-          HUGO_PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-          HUGO_FORMSPREE_ENDPOINT: ${{ secrets.FORMSPREE_ENDPOINT }}
         run: |
           hugo \
+            --config config.toml,config.local.toml \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
