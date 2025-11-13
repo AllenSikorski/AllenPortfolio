@@ -38,7 +38,7 @@ defaultContentLanguageInSubdir = false
 [params]
 name = "Allen Sikorski"
 email = "mail@AllenSikorski.com"
-profile_image = "/images/allen-sikorski-profile.jpg"
+profile_image = "images/allen-sikorski-profile.jpg"
 author = "Allen Sikorski"
 
 
