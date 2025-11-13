@@ -15,8 +15,8 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Allow only one concurrent deployment, skipping runs queued between
+# the run in-progress and latest queued. Do NOT cancel in-progress runs.
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -32,6 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.147.3
+
     steps:
       - name: Install Hugo CLI
         run: |
@@ -53,7 +54,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      # 🔧 NEW: install Node and all npm deps (including PostCSS)
+      # Install Node and npm deps (including PostCSS)
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -71,8 +72,9 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-          FORMSPREE_ENDPOINT: ${{ secrets.FORMSPREE_ENDPOINT }}
+          # 👇 Pass secrets through with HUGO_ prefix so Hugo can read them
+          HUGO_PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          HUGO_FORMSPREE_ENDPOINT: ${{ secrets.FORMSPREE_ENDPOINT }}
         run: |
           hugo \
             --minify \
