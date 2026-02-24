@@ -21,7 +21,7 @@ positions:
       - "Implemented centralized identity and access management across Microsoft 365 and Google Workspace with MFA and conditional access enforcement."
       - "Developed Node-RED automation flows integrating Twilio, MQTT, and Home Assistant for real-time system alerts and AI-driven security notifications."
       - "Automated provisioning and device onboarding with PowerShell, Python, and Intune, streamlining end-user deployment."
-      - "Designed and deployed PCI-compliant POS and inventory systems integrating network, hardware, and financial data pipelines.
+      - "Designed and deployed PCI-compliant POS and inventory systems integrating network, hardware, and financial data pipelines."
   
   - company: "PNM"
     company_url: "https://pnm.com"
