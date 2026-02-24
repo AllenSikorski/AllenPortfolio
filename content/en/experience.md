@@ -25,7 +25,7 @@ positions:
   
   - company: "PNM"
     company_url: "https://pnm.com"
-    role: "Network and Security Technician"
+    role: "Corporate IT Security & Systems Specialist"
     period: "2022 – 2023"
     industry: "Energy & Utilities"
     location: "Albuquerque, NM"
