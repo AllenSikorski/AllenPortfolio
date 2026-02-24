@@ -21,8 +21,8 @@ positions:
       - "Implemented centralized identity and access management across Microsoft 365 and Google Workspace with MFA and conditional access enforcement."
       - "Developed Node-RED automation flows integrating Twilio, MQTT, and Home Assistant for real-time system alerts and AI-driven security notifications."
       - "Automated provisioning and device onboarding with PowerShell, Python, and Intune, streamlining end-user deployment."
-      - "Designed and deployed PCI-compliant POS and inventory systems integrating network, hardware, and financial data pipelines."
-
+      - "Designed and deployed PCI-compliant POS and inventory systems integrating network, hardware, and financial data pipelines.
+  
   - company: "PNM"
     company_url: "https://pnm.com"
     role: "Network and Security Technician"
@@ -34,27 +34,13 @@ positions:
       - "Supported deployment of enterprise-grade Genetec surveillance and access-control infrastructure."
       - "Configured and maintained Active Directory, Windows Server, and LAN/WAN networks for high availability."
       - "Assisted with firewall, VPN, and server hardening to meet compliance and security standards."
-
-  - company: "Freelance & Independent Projects"
-    role: "Automation and Systems Engineer"
-    period: "2013 – 2016"
-    industry: "IT Consulting & Integration"
-    location: "Remote"
-    company_description: "Independent consulting and system build-outs for small business and residential automation environments."
-    bullet_points:
-      - "Developed custom IoT automation systems using Home Assistant, ESP32, and Zigbee2MQTT."
-      - "Built AWS-based lab environments for file storage, web services, and containerized workloads."
-      - "Integrated AI-powered camera analytics with Node-RED and Twilio for intelligent event detection."
-      - "Delivered full-stack solutions combining networking, scripting, and cloud automation."
-   
-
-
+      
   - company: "The University of New Mexico"
     company_url: "https://www.unm.edu"
     role: "Technical Analyst / Student"
     period: "2019 – 2022"
     industry: "Higher Education IT"
-    location: "Albuquerque, NM (Remote)"
+    location: "Albuquerque, NM"
     company_description: "Supported faculty, staff, and students with Tier 1–2 IT support while expanding into enterprise application administration, network support, and cybersecurity awareness training."
     bullet_points:
       - "Provided Tier 1–2 support via a ticketing system for hardware/software issues, escalating appropriately to meet SLA and resolution targets."
@@ -64,17 +50,12 @@ positions:
       - "Delivered workshops for faculty, staff, and students on MFA adoption and cybersecurity best practices to improve security awareness."
       - "Researched and evaluated emerging IT/security tools and recommended process and technology improvements."
 
-
-
-
-
-
   - company: "Hewlett Packard Enterprise"
     company_url: "https://www.hpe.com"
     role: "Senior Technical Support Manager"
     period: "2018"
     industry: "Enterprise IT Support & Operations"
-    location: "United States (On-site)"
+    location: "Rio Rancho, NM"
     company_description: "Delivered enterprise-level technical support leadership focused on remote troubleshooting, system recovery, and secure IT operations. Led a team of support specialists and standardized service delivery practices."
     bullet_points:
       - "Led a team of technical support specialists, improving service consistency through coaching, mentoring, and performance guidance."
