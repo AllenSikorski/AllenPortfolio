@@ -26,7 +26,7 @@ positions:
   - company: "PNM"
     company_url: "https://pnm.com"
     role: "Network and Security Technician"
-    period: "2016 – 2018"
+    period: "2022 – 2023"
     industry: "Energy & Utilities"
     location: "Albuquerque, NM"
     company_description: "Regional energy provider supporting critical infrastructure and secure operations across multiple facilities."
@@ -46,4 +46,42 @@ positions:
       - "Built AWS-based lab environments for file storage, web services, and containerized workloads."
       - "Integrated AI-powered camera analytics with Node-RED and Twilio for intelligent event detection."
       - "Delivered full-stack solutions combining networking, scripting, and cloud automation."
+   
+
+
+  - company: "The University of New Mexico"
+    company_url: "https://www.unm.edu"
+    role: "Technical Analyst / Student"
+    period: "2019 – 2022"
+    industry: "Higher Education IT"
+    location: "Albuquerque, NM (Remote)"
+    company_description: "Supported faculty, staff, and students with Tier 1–2 IT support while expanding into enterprise application administration, network support, and cybersecurity awareness training."
+    bullet_points:
+      - "Provided Tier 1–2 support via a ticketing system for hardware/software issues, escalating appropriately to meet SLA and resolution targets."
+      - "Administered and supported enterprise applications including Microsoft 365 and learning management systems through installation, configuration, and ongoing maintenance."
+      - "Collaborated with network administrators to maintain reliable connectivity, secure access, and high availability across campus environments."
+      - "Authored and maintained SOPs, user guides, and security training documentation to standardize processes and support compliance."
+      - "Delivered workshops for faculty, staff, and students on MFA adoption and cybersecurity best practices to improve security awareness."
+      - "Researched and evaluated emerging IT/security tools and recommended process and technology improvements."
+
+
+
+
+
+
+  - company: "Hewlett Packard Enterprise"
+    company_url: "https://www.hpe.com"
+    role: "Senior Technical Support Manager"
+    period: "2018"
+    industry: "Enterprise IT Support & Operations"
+    location: "United States (On-site)"
+    company_description: "Delivered enterprise-level technical support leadership focused on remote troubleshooting, system recovery, and secure IT operations. Led a team of support specialists and standardized service delivery practices."
+    bullet_points:
+      - "Led a team of technical support specialists, improving service consistency through coaching, mentoring, and performance guidance."
+      - "Provided remote diagnostics, troubleshooting, and system recovery for enterprise endpoints; isolated root causes and coordinated onsite remediation when required."
+      - "Resolved escalated issues for IT professionals to maintain business continuity and minimize downtime across distributed environments."
+      - "Defined and enforced SOPs for escalation and resolution workflows to improve repeatability and compliance with enterprise standards."
+      - "Applied security-minded incident handling practices to protect systems and sensitive data during troubleshooting and recovery."
+      - "Partnered with cross-functional teams to align support operations with broader IT initiatives and customer outcomes."
+
 ---
