@@ -4,7 +4,7 @@ type: "homepage"
 intro: >-
   Over nine years of experience in systems administration and network engineering — designing, securing, and automating infrastructure across hybrid, multi-site, and cloud-integrated environments.
 
-resume_url_en: "/files/Allen_Sikorski_CV.pdf"
+resume_url_en: "/files/Allen_Sikorski_Systems_Administrator_Resume.pdf"
 resume_label: "Download Resume"
 
 positions:
