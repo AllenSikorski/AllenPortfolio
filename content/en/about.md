@@ -35,7 +35,6 @@ quickfacts:
     title: "Languages"
     value: |
       - 🇬🇧 English (Native)  
-      - 🇵🇭 Tagalog (Basic – learning)
   - icon: "heart"
     title: "Interests"
     value: |
