@@ -3,7 +3,11 @@ title: "About"
 type: "homepage"
 featured_image: "/images/allensikorski-og.png"
 intro: >-
-  Hi! I'm Allen Sikorski, a Systems Administrator, Network Engineer, and Physical Security Systems Architect based in Albuquerque, USA. I support and design practical IT environments across Microsoft 365, Exchange Online, Windows infrastructure, VMware ESXi, UniFi networks, VPNs, endpoint systems, telecommunications, PACS/access control, surveillance systems, and multi-site physical security infrastructure. My work focuses on keeping business-critical systems reliable, documented, connected, and easy to support in real-world operating environments.
+  Hi! I'm Allen Sikorski, a Systems Administrator, Network Engineer, and Physical Security Systems Architect based in Albuquerque, USA. 
+  
+  I support and design practical IT environments across Microsoft 365, Exchange Online, Windows infrastructure, VMware ESXi, UniFi networks, VPNs, endpoint systems, telecommunications, PACS/access control, surveillance systems, and multi-site physical security infrastructure. 
+  
+  My work focuses on keeping business-critical systems reliable, documented, connected, and easy to support in real-world operating environments.
 
 study: >-
   I’ve completed university-level coursework toward a B.S. in Computer and Electrical Engineering, with a technical foundation in network architecture, systems design, hardware/software integration, and infrastructure support. Professionally, my strongest experience is in systems administration, Microsoft 365 and Exchange Online, virtualized infrastructure, networking, endpoint support, and physical security systems. I also use tools like PowerShell, Python, Docker, Node-RED, and Grafana to automate routine work, improve visibility, and make IT operations easier to maintain.
