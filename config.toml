@@ -19,15 +19,15 @@ defaultContentLanguageInSubdir = false
     languageName = "English"
     weight = 1
     [languages.en.params]
-      tagline = "Network Engineer. System Administrator. Problem Solver."
-      hero_description = "Cloud and Systems Administrator with 9 years of experience in AWS, Microsoft 365, and enterprise automation. Skilled in designing secure hybrid infrastructures, deploying virtualization clusters, and automating user and device management through PowerShell and Python. Passionate about scalable, secure, and modern IT ecosystems."
+      tagline = "Systems Administrator. Network Engineer. Security Infrastructure Architect."
+      hero_description = "Systems Administrator and Network Engineer with 9 years of hands-on IT experience supporting Microsoft 365, Exchange Online, Windows infrastructure, VMware ESXi, UniFi networks, VPNs, endpoint management, telecommunications, and multi-site security systems. Experienced in keeping business-critical systems reliable, secure, documented, and easy to support across real-world operating environments."
       hero_location = "Albuquerque, USA"
       collab_tags = [
-        "Cloud & Infrastructure",
-        "Automation Engineering",
-        "IoT Systems",
+        "Systems Administration",
         "Network Engineering",
-        "Security & Monitoring"
+        "Microsoft 365 & Exchange",
+        "Security Infrastructure",
+        "Automation & Scripting"
       ]
 
 
@@ -46,20 +46,20 @@ pexels_api_key = "uQcQbDGIhReGtfeBlBqz8mK62cMo1qtShDgShe3a4oQqP01W9Omm6RIW"
 formspree_endpoint = "https://formspree.io/f/mzzypwrj"
 
 
-og_image = "images/felipecordero-og.png"
+og_image = "images/allensikorski-og.png"
 
-description = "Cloud and Systems Administrator specializing in secure infrastructure, automation, and modern network design. Experienced with AWS, virtualization, Microsoft 365, and enterprise security. Focused on reliability, performance, and real-world problem solving."
+description = "Systems Administrator and Network Engineer specializing in Microsoft 365, Exchange Online, VMware, networking, security infrastructure, automation, and multi-site IT operations. Focused on reliability, documentation, performance, and real-world problem solving."
 
 linkedin_url = "https://www.linkedin.com/in/AllenSikorski"
 linkedin_text = "linkedin.com/in/AllenSikorski"
 github_url = "https://github.com/AllenSikorski"
 github_text = "github.com/AllenSikorski"
 
-copyright = "© 2025 | Allen Sikorski"
+copyright = "© 2026 | Allen Sikorski"
 
 
-resume_url_en = "/files/Allen_Sikorski_CV.pdf"
-resume_label = "View CV"
+resume_url_en = "/files/Allen_Sikorski_Resume.pdf"
+resume_label = "View Resume"
 
 # Contact Form Configuration
 # For security, sensitive endpoints are moved to config.local.toml
@@ -184,11 +184,11 @@ sectionPagesMenu = 'main'
   # Image search queries for random background images
   # Customize this list to change the types of images that appear
   # The system will randomly select from these queries for each page loads
-  queries = [
-    # "galaxy", "nebula", "planet", "astronomy",
-    # "solar system", "black hole", "constellation", "meteor",
-    # "comet", "asteroid", "space station", "satellite",
-    # "structural long span bridges", "structural skycrapers", "astronomy nasa pictures",
-    "universe solar systems nasa pictures", "structural long span bridges",
-    "nebula nasa pictures",
-  ]
+queries = [
+  "data center",
+  "network infrastructure",
+  "server room",
+  "fiber optic network",
+  "technology infrastructure",
+  "security operations center"
+]
