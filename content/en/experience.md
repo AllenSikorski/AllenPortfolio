@@ -52,7 +52,7 @@ positions:
 
   - company: "Hewlett Packard Enterprise"
     company_url: "https://www.hpe.com"
-    role: "Senior Technical Support Manager"
+    role: "Senior Technical Support Specialist"
     period: "2018"
     industry: "Enterprise IT Support & Operations"
     location: "Rio Rancho, NM"
