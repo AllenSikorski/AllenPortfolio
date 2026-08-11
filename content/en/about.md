@@ -33,7 +33,7 @@ quickfacts:
       **Bachelor of Information and Communication Technology**  
       GPA: 4.0 | Expected 2027  
       **Master of Information Technology**  
-      Anticipated graduation: 2028
+      Expected graduation: 2028
   - icon: "award"
     title: "Recent Achievement"
     value: "🏆 Led an end-to-end Microsoft 365 tenant migration, consolidating three business domains into one tenant while coordinating Exchange Online, Entra ID, DNS, cross-tenant access, migration batches, and post-cutover support."
