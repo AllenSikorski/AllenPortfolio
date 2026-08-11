@@ -10,7 +10,7 @@ intro: >-
   My work focuses on keeping business-critical systems reliable, documented, connected, and easy to support in real-world operating environments.
 
 study: >-
-  I’ve completed university-level coursework toward a B.S. in Computer and Electrical Engineering, with a technical foundation in network architecture, systems design, hardware/software integration, and infrastructure support. Professionally, my strongest experience is in systems administration, Microsoft 365 and Exchange Online, virtualized infrastructure, networking, endpoint support, and physical security systems. I also use tools like PowerShell, Python, Docker, Node-RED, and Grafana to automate routine work, improve visibility, and make IT operations easier to maintain.
+  I’m currently pursuing a Bachelor of Information and Communication Technology through the College of Engineering at New Mexico State University, where I maintain a 4.0 GPA and expect to graduate in 2027. I anticipate continuing my education with a Master of Information Technology, targeting completion in 2028. Professionally, my strongest experience is in systems administration, Microsoft 365 and Exchange Online, virtualized infrastructure, networking, endpoint management, and physical security systems. I also use PowerShell, Python, Docker, Node-RED, and Grafana to automate routine work, improve visibility, and make IT operations easier to maintain.
 
 passion_title: "What I'm passionate about"
 passion_text: >-
@@ -27,14 +27,16 @@ quickfacts:
     title: "Current Role"
     value: "💼 Systems Administrator at <strong>Just Sprinklers Inc.</strong> — supporting IT infrastructure, networking, business systems, telecommunications, PACS/access control, and surveillance technology across multiple company locations"
   - icon: "graduation-cap"
-    title: "Technical Foundation"
+    title: "Education"
     value: |
-      🧠 Coursework completed toward B.S. in Computer & Electrical Engineering  
-      ☁️ AWS Solutions Architect Associate (in progress)  
-      🧩 CompTIA A+ Core I Certified
+      🎓 **New Mexico State University | College of Engineering**  
+      **Bachelor of Information and Communication Technology**  
+      GPA: 4.0 | Expected 2027  
+      **Master of Information Technology**  
+      Anticipated graduation: 2028
   - icon: "award"
     title: "Recent Achievement"
-    value: "🏆 Designed and supported multi-site IT and physical security infrastructure using VMware ESXi, UniFi networking, VPNs, surveillance systems, PACS/access-control-related technology, and Node-RED automation workflows."
+    value: "🏆 Led an end-to-end Microsoft 365 tenant migration, consolidating three business domains into one tenant while coordinating Exchange Online, Entra ID, DNS, cross-tenant access, migration batches, and post-cutover support."
   - icon: "language"
     title: "Languages"
     value: |
