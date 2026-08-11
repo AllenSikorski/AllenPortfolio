@@ -37,15 +37,4 @@ quickfacts:
   - icon: "award"
     title: "Recent Achievement"
     value: "🏆 Led an end-to-end Microsoft 365 tenant migration, consolidating three business domains into one tenant while coordinating Exchange Online, Entra ID, DNS, cross-tenant access, migration batches, and post-cutover support."
-  - icon: "language"
-    title: "Languages"
-    value: |
-      - 🇬🇧 English (Native)  
-  - icon: "heart"
-    title: "Interests"
-    value: |
-      - 🧩 Automation & IoT  
-      - 💻 Node-RED Development  
-      - 📸 Photography  
-      - 🧠 Home Lab Projects
 ---
